@@ -43,6 +43,11 @@ import 'model/category_model.dart';
 import 'model/coupon_list_model.dart';
 import 'model/dashboard_model.dart';
 
+import 'package:device_preview/device_preview.dart';
+import 'package:flutter/foundation.dart'; // عشان نستخدم kReleaseMode
+
+
+
 //region Handle Background Firebase Message
 Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   log('Message Data : ${message.data}');
@@ -125,6 +130,7 @@ void main() async {
 
   defaultToastBackgroundColor = Colors.black;
   defaultToastTextColor = Colors.white;
+
 
   runApp(MyApp());
 }

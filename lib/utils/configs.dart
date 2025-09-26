@@ -9,6 +9,10 @@ var defaultPrimaryColor = Color(0xff2363cb);
 
 const DOMAIN_URL = 'https://handymanjo.net'; // Don't add slash at the end of the url
 
+
+
+
+
 const BASE_URL = '$DOMAIN_URL/api/';
 
 const DEFAULT_LANGUAGE = 'ar';
